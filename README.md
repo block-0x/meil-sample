@@ -211,16 +211,40 @@ $ heroku run rails db:migrate
 $ heroku open
 ```
 
+## 2回目以降に作成したアプリケーションをHerokuにデプロイする際のHeroku x sendgridの設定
 
+以下のコマンドでHeroku appを作成したあとは
 
+```
+$ heroku create
+``
 
+SendGridアドオンのプロビジョニングはしなくてもよい
 
+```
+$ heroku addons:create sendgrid:starter
+```
 
+--- 
 
+上記
 
+> 登録情報の確認
 
+の設定情報をローカルにとっておいて、その情報を以下のコマンドで設定する
 
+```
+heroku config:set
+```
 
+その後
 
+### Herokuにデプロイ
 
-
+```
+$ git add .
+$ git commit -m 'mailer_sample'
+$ git push heroku master
+$ heroku run rails db:migrate
+$ heroku open
+```
