@@ -123,8 +123,8 @@ $ bin/rails db:migrate
 1. ログインする
 1. 以下の画像の順でAPI_KEYを取得する
 
-![](https://devcenter0.assets.heroku.com/article-images/1473932591-00000066.png)
-![](https://devcenter3.assets.heroku.com/article-images/1473932632-00000067.png)
+<img src="https://devcenter0.assets.heroku.com/article-images/1473932591-00000066.png">
+<img src="https://devcenter3.assets.heroku.com/article-images/1473932632-00000067.png">
 
 ### Herokuにログイン
 
@@ -217,7 +217,7 @@ $ heroku open
 
 ```
 $ heroku create
-``
+```
 
 SendGridアドオンのプロビジョニングはしなくてもよい
 
