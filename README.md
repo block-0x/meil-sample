@@ -121,10 +121,9 @@ $ bin/rails db:migrate
 1. [SendGrid](https://sendgrid.kke.co.jp/)にアクセス
 1. ユーザ登録する
 1. ログインする
-1. 以下の画像の順でAPI_KEYを取得する
+1. 以下の順でAPI_KEYを取得する
 
-<img src="https://devcenter0.assets.heroku.com/article-images/1473932591-00000066.png">
-<img src="https://devcenter3.assets.heroku.com/article-images/1473932632-00000067.png">
+https://devcenter.heroku.com/articles/sendgrid#create-an-api-key
 
 ### Herokuにログイン
 
